@@ -15,5 +15,9 @@ class Program {
             high = Convert.ToInt32(Console.ReadLine());
         }
         while (high <= low);
+
+        int difference = high - low;
+        
+        Console.WriteLine("The difference between the two integers is: " + difference);
     }
 }
